@@ -1,0 +1,10 @@
+#!/bin/bash
+
+docker run \
+    -it \
+    --name npm \
+    --rm -v \
+    $(pwd):/usr/src/app \
+    --user $(id -u):$(id -g) \
+    -w /usr/src/app \
+node:8 npm "$@"
