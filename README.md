@@ -17,6 +17,7 @@ don't hesitate to submit a pull request!
 2. Add the tool you would like to use through Docker
 3. Create a new pull request
 
-## Licence
+## Thanks
 
 This repository is based on the [one made available](https://github.com/SirPryderi/tools) by @SirPryderi
+
